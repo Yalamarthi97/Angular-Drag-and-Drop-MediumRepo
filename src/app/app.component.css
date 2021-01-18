@@ -1,0 +1,41 @@
+.hold{
+  height: auto; /* Auto height as when the content increases so should the height */
+  min-height: 37px; /* Minimum height value is given so that the div does not collapse on itself
+                     making it harder to drag and drop */
+  border:black solid 3px;
+}
+
+/* Css for the Done Div */
+.Done{
+  padding: 10px 10px 10px 10px;
+  border: green 1px solid;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: pink  ;
+}
+/* Css for the To Do Div */
+.ToDo{
+  padding: 10px 10px 10px 10px;
+  border: red 1px solid;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:yellow;
+}
+/* Css for the Low Priority List */
+.LowPriority{
+  padding: 10px 10px 10px 10px;
+  border: white 1px solid;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color:black;
+}
+/* Css for the Not Relevant Div */
+.notRelevant{
+  padding: 10px 10px 10px 10px;
+  border: orange 1px solid;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
